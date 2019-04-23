@@ -1,0 +1,14 @@
+{
+  "name": "Drive SMART Setting",
+  "description": "adding SMART support to System Settings",
+  "author": "Alanyeung",
+  "web": "https://alanyeung.co",
+  "panel": {
+    "drive": [
+     "smart,SMART,SystemAOB/functions/drive/index.php"
+    ],
+    "cluster": [
+      "smartcls,Cluster Storage,SystemAOB/functions/drive/index-cls.php"
+    ]
+  }
+}

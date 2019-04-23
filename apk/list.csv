@@ -1,0 +1,211 @@
+android.hardware.audio.low_latency,Audio,"The app uses the device's low-latency audio pipeline, which reduces lag and delays when processing sound input or output."
+android.hardware.audio.output,Audio,"The app transmits sound using the device's speakers, audio jack, Bluetooth streaming capabilities, or a similar mechanism."
+android.hardware.audio.pro,Audio,The app uses the device's high-end audio functionality and performance capabilities.
+android.hardware.microphone,Audio,The app records audio using the device's microphone.
+android.hardware.bluetooth,Bluetooth,"The app uses the device's Bluetooth features, usually to communicate with other Bluetooth-enabled devices."
+android.hardware.bluetooth_le,Bluetooth,The app uses the device's Bluetooth Low Energy radio features.
+android.hardware.camera,Camera,"The app uses the device's back-facing camera."
+android.hardware.camera.any,Camera,"The app uses one of the device's cameras, or an external camera that the user connects to the device. "
+android.hardware.camera.autofocus,Camera,The app uses the autofocus feature that the device's camera supports.
+android.hardware.camera.capability.manual_post_processing,Camera,This feature allows your app to override the camera's auto white balance functionality.
+android.hardware.camera.capability.manual_sensor,Camera,"This feature implies support for auto-exposure locking (android.control.aeLock), which allows the camera's exposure time and sensitivity to remain fixed at specific values."
+android.hardware.camera.capability.raw,Camera,This feature implies that the device can save DNG (raw) files and that the device's camera provides the DNG-related metadata necessary for your app to process these raw images directly.
+android.hardware.camera.external,Camera,"The app communicates with an external camera that the user connects to the device. This feature does not guarantee, however, that the external camera is available for your app to use."
+android.hardware.camera.flash,Camera,The app uses the flash feature that the device's camera supports.
+android.hardware.camera.front,Camera,The app uses the device's front-facing camera.
+android.hardware.camera.level.full,Camera,"The app uses the FULL-level image-capturing support that at least one of the device's cameras provides. Cameras with FULL support provide burst-capture capabilities, per-frame control, and manual post-processing control."
+android.hardware.type.automotive,DeviceUI,"The app is designed to show its UI on a set of screens inside a vehicle. The user interacts with the app using hard buttons, touch, rotary controllers, and mouse-like interfaces. The vehicle's screens usually appear in the center console or the instrument cluster of a vehicle. These screens usually have limited size and resolution."
+android.hardware.type.television,DeviceUI,"The app is designed to show its UI on a television. This feature defines ""television"" to be a typical living room television experience: displayed on a big screen, where the user is sitting far away and the dominant form of input is something like a d-pad, and generally not using a mouse, pointer, or touch device."
+android.hardware.type.watch,DeviceUI,"The app is designed to show its UI on a watch. A watch is worn on the body, such as on the wrist. The user is very close to the device while interacting with it."
+android.hardware.fingerprint,Fingerprint,The app reads fingerprints using the device's biometric hardware.
+android.hardware.gamepad,Gamepad,"The app captures game controller input, either from the device itself or from a connected gamepad."
+android.hardware.consumerir,Infrared ,"The app uses the device's infrared (IR) capabilities, usually to communicate with other consumer IR devices."
+android.hardware.location,Location,"The app uses one or more features on the device for determining location, such as GPS location, network location, or cell location."
+android.hardware.location.gps,Location,The app uses precise location coordinates obtained from a Global Positioning System (GPS) receiver on the device.
+android.hardware.location.network,Location,The app uses coarse location coordinates obtained from a network-based geolocation system supported on the device.
+android.hardware.nfc,NFC,The app uses the device's Near-Field Communication (NFC) radio features.
+android.hardware.nfc.hce,NFC,The app uses NFC card emulation that is hosted on the device.
+android.hardware.opengles.aep,OpenGL,The app uses the OpenGL ES Android Extension Pack that is installed on the device.
+android.hardware.sensor.accelerometer,Sensor,"The app uses motion readings from the device's accelerometer to detect the device's current orientation. For example, an app could use accelerometer readings to determine when to switch between portrait and landscape orientations."
+android.hardware.sensor.ambient_temperature,Sensor,"The app uses the device's ambient (environmental) temperature sensor. For example, a weather app could report indoor or outdoor temperature."
+android.hardware.sensor.barometer,Sensor,"The app uses the device's barometer. For example, a weather app could report air pressure."
+android.hardware.sensor.compass,Sensor,"The app uses the device's magnetometer (compass). For example, a navigation app could show the current direction a user faces."
+android.hardware.sensor.gyroscope,Sensor,"The app uses the device's gyroscope to detect rotation and twist, creating a six-axis orientation system. By using this sensor, an app can detect more smoothly whether it needs to switch between portrait and landscape orientations."
+android.hardware.sensor.hifi_sensors,Sensor,"The app uses the device's high fidelity (Hi-Fi) sensors. For example, a gaming app could detect the user's high-precision movements."
+android.hardware.sensor.heartrate,Sensor,"The app uses the device's heart rate monitor. For example, a fitness app could report trends in a user's heart rate over time."
+android.hardware.sensor.heartrate.ecg,Sensor,"The app uses the device's elcardiogram (ECG) heart rate sensor. For example, a fitness app could report more detailed information about a user's heart rate."
+android.hardware.sensor.light,Sensor,"The app uses the device's light sensor. For example, an app could display one of two different color schemes based on the ambient lighting conditions."
+android.hardware.sensor.proximity,Sensor,"The app uses the device's proximity sensor. For example, a telephony app could turn off the device's screen when the app detects that the user is holding the device close to their body."
+android.hardware.sensor.relative_humidity,Sensor,"The app uses the device's relative humidity sensor. For example, a weather app could use the humidity to calculate and report the current dewpoint."
+android.hardware.sensor.stepcounter,Sensor,"The app uses the device's step counter. For example, a fitness app could report the number of steps a user needs to take to achieve their daily step count goal."
+android.hardware.sensor.stepdetector,Sensor,"The app uses the device's step detector. For example, a fitness app could use the time interval between steps to infer the type of exercise that the user is doing."
+android.hardware.screen.landscape,Screen,The app requires the device to use the landscape orientation.
+android.hardware.screen.portrait,Screen,The app requires the device to use the portrait orientation.
+android.hardware.telephony,Telephony,"The app uses the device's telephony features, such as telephony radio with data communication services."
+android.hardware.telephony.cdma,Telephony,The app uses the Code Division Multiple Access (CDMA) telephony radio system.
+android.hardware.telephony.gsm,Telephony,The app uses the Global System for Mobile Communications (GSM) telephony radio system.
+android.hardware.faketouch,TouchScreen,"The app uses basic touch interaction events, such as tapping and dragging."
+android.hardware.faketouch.multitouch.distinct,TouchScreen,"The app tracks two or more distinct ""fingers"" on a fake touch interface."
+android.hardware.faketouch.multitouch.jazzhand,TouchScreen,"The app tracks five or more distinct ""fingers"" on a fake touch interface."
+android.hardware.touchscreen,TouchScreen,"The app uses the device's touchscreen capabilities for gestures that are more interactive than basic touch events, such as a fling."
+android.hardware.touchscreen.multitouch,TouchScreen,"The app uses the device's basic two-point multitouch capabilities, such as for pinch gestures, but the app does not need to track touches independently."
+android.hardware.touchscreen.multitouch.distinct,TouchScreen,The app uses the device's advanced multitouch capabilities for tracking two or more points independently.
+android.hardware.touchscreen.multitouch.jazzhand,TouchScreen,The app uses the device's advanced multitouch capabilities for tracking five or more points independently.
+android.hardware.usb.accessory,USB,The app behaves as the USB device and connects to USB hosts.
+android.hardware.usb.host,USB,The app uses the USB accessories that are connected to the device. The device serves as the USB host.
+android.hardware.vulkan.compute,Vulkan,The app uses Vulkan compute features.
+android.hardware.vulkan.level,Vulkan,The app uses Vulkan level features.
+android.hardware.vulkan.version,Vulkan,"The app requires support from a minimum version of Vulkan API, which is specified by the feature version."
+android.hardware.wifi,WiFi,The app uses 802.11 networking (Wi-Fi) features on the device.
+android.hardware.wifi.direct,WiFi,The app uses the Wi-Fi Direct networking features on the device.
+android.permission.ACCEPT_HANDOVER,Permission,Allows a calling app to continue a call which was started in another app.
+android.permission.ACCESS_CHECKIN_PROPERTIES,Permission,"Allows read/write access to the properties table in the checkin database, to change values that get uploaded."
+android.permission.ACCESS_COARSE_LOCATION,Permission,Allows an app to access approximate location.
+android.permission.ACCESS_FINE_LOCATION,Permission,Allows an app to access precise location.
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS,Permission,Allows an application to access extra location provider commands.
+android.permission.ACCESS_NETWORK_STATE,Permission,Allows applications to access information about networks.
+android.permission.ACCESS_NOTIFICATION_POLICY,Permission,Marker permission for applications that wish to access notification policy.
+android.permission.ACCESS_WIFI_STATE,Permission,Allows applications to access information about Wi-Fi networks.
+android.permission.ACCOUNT_MANAGER,Permission,Allows applications to call into AccountAuthenticators.
+android.permission.ADD_VOICEMAIL,Permission,Allows an application to add voicemails into the system.
+android.permission.ANSWER_PHONE_CALLS,Permission,Allows the app to answer an incoming phone call.
+android.permission.BATTERY_STATS,Permission,Allows an application to collect battery statistics
+android.permission.BIND_ACCESSIBILITY_SERVICE,Permission,"Must be required by an AccessibilityService, to ensure that only the system can bind to it."
+android.permission.BIND_APPWIDGET,Permission,Allows an application to tell the AppWidget service which application can access AppWidget's data.
+android.permission.BIND_AUTOFILL_SERVICE,Permission,"Must be required by a AutofillService, to ensure that only the system can bind to it."
+android.permission.BIND_CARRIER_MESSAGING_SERVICE,Permission,This constant was deprecated in API level 23. Use BIND_CARRIER_SERVICES instead
+android.permission.BIND_CARRIER_SERVICES,Permission,The system process that is allowed to bind to services in carrier apps will have this permission.
+android.permission.BIND_CHOOSER_TARGET_SERVICE,Permission,"Must be required by a ChooserTargetService, to ensure that only the system can bind to it."
+android.permission.BIND_CONDITION_PROVIDER_SERVICE,Permission,"Must be required by a ConditionProviderService, to ensure that only the system can bind to it."
+android.permission.BIND_DEVICE_ADMIN,Permission,"Must be required by device administration receiver, to ensure that only the system can interact with it."
+android.permission.BIND_DREAM_SERVICE,Permission,"Must be required by an DreamService, to ensure that only the system can bind to it."
+android.permission.BIND_INCALL_SERVICE,Permission,"Must be required by a InCallService, to ensure that only the system can bind to it."
+android.permission.BIND_INPUT_METHOD,Permission,"Must be required by an InputMethodService, to ensure that only the system can bind to it."
+android.permission.BIND_MIDI_DEVICE_SERVICE,Permission,"Must be required by an MidiDeviceService, to ensure that only the system can bind to it."
+android.permission.BIND_NFC_SERVICE,Permission,Must be required by a HostApduService or OffHostApduService to ensure that only the system can bind to it.
+android.permission.BIND_NOTIFICATION_LISTENER_SERVICE,Permission,"Must be required by an NotificationListenerService, to ensure that only the system can bind to it."
+android.permission.BIND_PRINT_SERVICE,Permission,"Must be required by a PrintService, to ensure that only the system can bind to it."
+android.permission.BIND_QUICK_SETTINGS_TILE,Permission,Allows an application to bind to third party quick settings tiles.
+android.permission.BIND_REMOTEVIEWS,Permission,"Must be required by a RemoteViewsService, to ensure that only the system can bind to it."
+android.permission.BIND_SCREENING_SERVICE,Permission,"Must be required by a CallScreeningService, to ensure that only the system can bind to it."
+android.permission.BIND_TELECOM_CONNECTION_SERVICE,Permission,"Must be required by a ConnectionService, to ensure that only the system can bind to it."
+android.permission.BIND_TEXT_SERVICE,Permission,Must be required by a TextService (e.g.
+android.permission.BIND_TV_INPUT,Permission,Must be required by a TvInputService to ensure that only the system can bind to it.
+android.permission.BIND_VISUAL_VOICEMAIL_SERVICE,Permission,Must be required by a link VisualVoicemailService to ensure that only the system can bind to it.
+android.permission.BIND_VOICE_INTERACTION,Permission,"Must be required by a VoiceInteractionService, to ensure that only the system can bind to it."
+android.permission.BIND_VPN_SERVICE,Permission,"Must be required by a VpnService, to ensure that only the system can bind to it."
+android.permission.BIND_VR_LISTENER_SERVICE,Permission,"Must be required by an VrListenerService, to ensure that only the system can bind to it."
+android.permission.BIND_WALLPAPER,Permission,"Must be required by a WallpaperService, to ensure that only the system can bind to it."
+android.permission.BLUETOOTH,Permission,Allows applications to connect to paired bluetooth devices.
+android.permission.BLUETOOTH_ADMIN,Permission,Allows applications to discover and pair bluetooth devices.
+android.permission.BLUETOOTH_PRIVILEGED,Permission,"Allows applications to pair bluetooth devices without user interaction, and to allow or disallow phonebook access or message access."
+android.permission.BODY_SENSORS,Permission,"Allows an application to access data from sensors that the user uses to measure what is happening inside his/her body, such as heart rate."
+android.permission.BROADCAST_PACKAGE_REMOVED,Permission,Allows an application to broadcast a notification that an application package has been removed.
+android.permission.BROADCAST_SMS,Permission,Allows an application to broadcast an SMS receipt notification.
+android.permission.BROADCAST_STICKY,Permission,Allows an application to broadcast sticky intents.
+android.permission.BROADCAST_WAP_PUSH,Permission,Allows an application to broadcast a WAP PUSH receipt notification.
+android.permission.CALL_PHONE,Permission,Allows an application to initiate a phone call without going through the Dialer user interface for the user to confirm the call.
+android.permission.CALL_PRIVILEGED,Permission,"Allows an application to call any phone number, including emergency numbers, without going through the Dialer user interface for the user to confirm the call being placed."
+android.permission.CAMERA,Permission,Required to be able to access the camera device.
+android.permission.CAPTURE_AUDIO_OUTPUT,Permission,Allows an application to capture audio output.
+android.permission.CAPTURE_SECURE_VIDEO_OUTPUT,Permission,Allows an application to capture secure video output.
+android.permission.CAPTURE_VIDEO_OUTPUT,Permission,Allows an application to capture video output.
+android.permission.CHANGE_COMPONENT_ENABLED_STATE,Permission,Allows an application to change whether an application component (other than its own) is enabled or not.
+android.permission.CHANGE_CONFIGURATION,Permission,"Allows an application to modify the current configuration, such as locale."
+android.permission.CHANGE_NETWORK_STATE,Permission,Allows applications to change network connectivity state.
+android.permission.CHANGE_WIFI_MULTICAST_STATE,Permission,Allows applications to enter Wi-Fi Multicast mode.
+android.permission.CHANGE_WIFI_STATE,Permission,Allows applications to change Wi-Fi connectivity state.
+android.permission.CLEAR_APP_CACHE,Permission,Allows an application to clear the caches of all installed applications on the device.
+android.permission.CONTROL_LOCATION_UPDATES,Permission,Allows enabling/disabling location update notifications from the radio.
+android.permission.DELETE_CACHE_FILES,Permission,"Old permission for deleting an app's cache files, no longer used, but signals for us to quietly ignore calls instead of throwing an exception."
+android.permission.DELETE_PACKAGES,Permission,Allows an application to delete packages.
+android.permission.DIAGNOSTIC,Permission,Allows applications to RW to diagnostic resources.
+android.permission.DISABLE_KEYGUARD,Permission,Allows applications to disable the keyguard if it is not secure.
+android.permission.DUMP,Permission,Allows an application to retrieve state dump information from system services.
+android.permission.EXPAND_STATUS_BAR,Permission,Allows an application to expand or collapse the status bar.
+android.permission.FACTORY_TEST,Permission,"Run as a manufacturer test application, running as the root user."
+android.permission.FOREGROUND_SERVICE,Permission,Allows a regular application to use Service.startForeground.
+android.permission.GET_ACCOUNTS,Permission,Allows access to the list of accounts in the Accounts Service.
+android.permission.GET_ACCOUNTS_PRIVILEGED,Permission,Allows access to the list of accounts in the Accounts Service.
+android.permission.GET_PACKAGE_SIZE,Permission,Allows an application to find out the space used by any package.
+android.permission.GET_TASKS,Permission,This constant was deprecated in API level 21. No longer enforced.
+android.permission.GLOBAL_SEARCH,Permission,This permission can be used on content providers to allow the global search system to access their data.
+android.permission.INSTALL_LOCATION_PROVIDER,Permission,Allows an application to install a location provider into the Location Manager.
+android.permission.INSTALL_PACKAGES,Permission,Allows an application to install packages.
+android.permission.INSTALL_SHORTCUT,Permission,Allows an application to install a shortcut in Launcher.
+android.permission.INSTANT_APP_FOREGROUND_SERVICE,Permission,Allows an instant app to create foreground services.
+android.permission.INTERNET,Permission,Allows applications to open network sockets.
+android.permission.KILL_BACKGROUND_PROCESSES,Permission,Allows an application to call ActivityManager.killBackgroundProcesses(String).
+android.permission.LOCATION_HARDWARE,Permission,"Allows an application to use location features in hardware, such as the geofencing api."
+android.permission.MANAGE_DOCUMENTS,Permission,"Allows an application to manage access to documents, usually as part of a document picker."
+android.permission.MANAGE_OWN_CALLS,Permission,Allows a calling application which manages it own calls through the self-managed ConnectionService APIs.
+android.permission.MASTER_CLEAR,Permission,Not for use by third-party applications.
+android.permission.MEDIA_CONTENT_CONTROL,Permission,Allows an application to know what content is playing and control its playback.
+android.permission.MODIFY_AUDIO_SETTINGS,Permission,Allows an application to modify global audio settings.
+android.permission.MODIFY_PHONE_STATE,Permission,"Allows modification of the telephony state - power on, mmi, etc."
+android.permission.MOUNT_FORMAT_FILESYSTEMS,Permission,Allows formatting file systems for removable storage.
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS,Permission,Allows mounting and unmounting file systems for removable storage.
+android.permission.NFC,Permission,Allows applications to perform I/O operations over NFC.
+android.permission.NFC_TRANSACTION_EVENT,Permission,Allows applications to receive NFC transaction events.
+android.permission.PACKAGE_USAGE_STATS,Permission,Allows an application to collect component usage statisticsDeclaring the permission implies intention to use the API and the user of the device can grant permission through the Settings application.
+android.permission.PERSISTENT_ACTIVITY,Permission,This constant was deprecated in API level 9. This functionality will be removed in the future; please do not use. Allow an application to make its activities persistent.
+android.permission.PROCESS_OUTGOING_CALLS,Permission,Allows an application to see the number being dialed during an outgoing call with the option to redirect the call to a different number or abort the call altogether.
+android.permission.READ_CALENDAR,Permission,Allows an application to read the user's calendar data.
+android.permission.READ_CALL_LOG,Permission,Allows an application to read the user's call log.
+android.permission.READ_CONTACTS,Permission,Allows an application to read the user's contacts data.
+android.permission.READ_EXTERNAL_STORAGE,Permission,Allows an application to read from external storage.
+android.permission.READ_FRAME_BUFFER,Permission,Allows an application to take screen shots and more generally get access to the frame buffer data.
+android.permission.READ_INPUT_STATE,Permission,This constant was deprecated in API level 16. The API that used this permission has been removed.
+android.permission.READ_LOGS,Permission,Allows an application to read the low-level system log files.
+android.permission.READ_PHONE_NUMBERS,Permission,Allows read access to the device's phone number(s).
+android.permission.READ_PHONE_STATE,Permission,"Allows read only access to phone state, including the phone number of the device, current cellular network information, the status of any ongoing calls, and a list of any PhoneAccounts registered on the device."
+android.permission.READ_SMS,Permission,Allows an application to read SMS messages.
+android.permission.READ_SYNC_SETTINGS,Permission,Allows applications to read the sync settings.
+android.permission.READ_SYNC_STATS,Permission,Allows applications to read the sync stats.
+android.permission.READ_VOICEMAIL,Permission,Allows an application to read voicemails in the system.
+android.permission.REBOOT,Permission,Required to be able to reboot the device.
+android.permission.RECEIVE_BOOT_COMPLETED,Permission,Allows an application to receive the Intent.
+android.permission.RECEIVE_MMS,Permission,Allows an application to monitor incoming MMS messages.
+android.permission.RECEIVE_SMS,Permission,Allows an application to receive SMS messages.
+android.permission.RECEIVE_WAP_PUSH,Permission,Allows an application to receive WAP push messages.
+android.permission.RECORD_AUDIO,Permission,Allows an application to record audio.
+android.permission.REORDER_TASKS,Permission,Allows an application to change the Z-order of tasks.
+android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND,Permission,Allows a companion app to run in the background.
+android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND,Permission,Allows a companion app to use data in the background.
+android.permission.REQUEST_DELETE_PACKAGES,Permission,Allows an application to request deleting packages.
+android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS,Permission,Permission an application must hold in order to use Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS.
+android.permission.REQUEST_INSTALL_PACKAGES,Permission,Allows an application to request installing packages.
+android.permission.RESTART_PACKAGES,Permission,This constant was deprecated in API level 8. The ActivityManager.restartPackage(String) API is no longer supported.
+android.permission.SEND_RESPOND_VIA_MESSAGE,Permission,Allows an application (Phone) to send a request to other applications to handle the respond-via-message action during incoming calls.
+android.permission.SEND_SMS,Permission,Allows an application to send SMS messages.
+android.permission.SET_ALARM,Permission,Allows an application to broadcast an Intent to set an alarm for the user.
+android.permission.SET_ALWAYS_FINISH,Permission,Allows an application to control whether activities are immediately finished when put in the background.
+android.permission.SET_ANIMATION_SCALE,Permission,Modify the global animation scaling factor.
+android.permission.SET_DEBUG_APP,Permission,Configure an application for debugging.
+android.permission.SET_PREFERRED_APPLICATIONS,Permission,"This constant was deprecated in API level 7."
+android.permission.SET_PROCESS_LIMIT,Permission,Allows an application to set the maximum number of (not needed) application processes that can be running.
+android.permission.SET_TIME,Permission,Allows applications to set the system time.
+android.permission.SET_TIME_ZONE,Permission,Allows applications to set the system time zone.
+android.permission.SET_WALLPAPER,Permission,Allows applications to set the wallpaper.
+android.permission.SET_WALLPAPER_HINTS,Permission,Allows applications to set the wallpaper hints.
+android.permission.SIGNAL_PERSISTENT_PROCESSES,Permission,Allow an application to request that a signal be sent to all persistent processes.
+android.permission.STATUS_BAR,Permission,"Allows an application to open, close, or disable the status bar and its icons."
+android.permission.SYSTEM_ALERT_WINDOW,Permission,"Allows an app to create windows using the type WindowManager.LayoutParams."
+android.permission.TRANSMIT_IR,Permission,"Allows using the device's IR transmitter, if available."
+android.permission.UNINSTALL_SHORTCUT,Permission,Don't use this permission in your app.
+android.permission.UPDATE_DEVICE_STATS,Permission,Allows an application to update device statistics.
+android.permission.USE_BIOMETRIC,Permission,Allows an app to use device supported biometric modalities.
+android.permission.USE_FINGERPRINT,Permission,This constant was deprecated in API level 28.
+android.permission.USE_SIP,Permission,Allows an application to use SIP service.
+android.permission.VIBRATE,Permission,Allows access to the vibrator.
+android.permission.WAKE_LOCK,Permission,Allows using PowerManager WakeLocks to keep processor from sleeping or screen from dimming.
+android.permission.WRITE_APN_SETTINGS,Permission,Allows applications to write the apn settings.
+android.permission.WRITE_CALENDAR,Permission,Allows an application to write the user's calendar data.
+android.permission.WRITE_CALL_LOG,Permission,Allows an application to write (but not read) the user's call log data.
+android.permission.WRITE_CONTACTS,Permission,Allows an application to write the user's contacts data.
+android.permission.WRITE_EXTERNAL_STORAGE,Permission,Allows an application to write to external storage.
+android.permission.WRITE_GSERVICES,Permission,Allows an application to modify the Google service map.
+android.permission.WRITE_SECURE_SETTINGS,Permission,Allows an application to read or write the secure system settings.
+android.permission.WRITE_SETTINGS,Permission,Allows an application to read or write the system settings.
+android.permission.WRITE_SYNC_SETTINGS,Permission,Allows applications to write the sync settings.
+android.permission.WRITE_VOICEMAIL,Permission,Allows an application to modify and remove existing voicemails in the system.

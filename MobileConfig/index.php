@@ -59,7 +59,7 @@
 </div>
 </body>
 <script>
-var filename = "<?php echo $_GET["filename"]; ?>";
+var filename = "<?php echo $_GET["file"]; ?>";
 var htmlstructure = '<br><span style="font-weight: bold;font-size: 1.4rem">{Setting Name}</span><div class="ts divider"></div><div class="ts grid" style="font-size: 1.14286rem;">{Description}</div>';
 
 $.get( "opr.php?filename=" + filename, function( str ) {

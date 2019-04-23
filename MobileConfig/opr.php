@@ -13,7 +13,9 @@ if($result == []){
 	$processFirstline = fopen("designed".$seed.".mobileconfig", "r");
 	$processFirstlineContents = fread($processFirstline, filesize("designed".$seed.".mobileconfig"));
 	fclose($processFirstline);
-	$processFirstlineContents = substr($processFirstlineContents, 2);
+	if($processFirstlineContents[0] == "\n" || $processFirstlineContents[0] == "\r" || $processFirstlineContents[0] == " "){
+		$processFirstlineContents = substr($processFirstlineContents, 2);
+	}
 	$processFirstline = fopen("designed".$seed.".mobileconfig", "w");
 	fwrite($processFirstline,$processFirstlineContents);
 	fclose($processFirstline);
